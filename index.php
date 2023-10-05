@@ -6,7 +6,7 @@ use GeoIp2\Database\Reader;
 $ip_addr = !empty($_POST['ip_address']) ? $_POST['ip_address'] : $_SERVER["REMOTE_ADDR"];
 try {
 // Create a new Reader object and specify the path to the database file
-$cityDbReader = new Reader('vendor/geoip2/geoip2/src/Database/GeoIP2-City-Test.mmdb');
+$cityDbReader = new Reader('path/to/GeoIP2-City-Test.mmdb');
 // Get geolocation data
 $geoData = $cityDbReader->city ($ip_addr);
 } catch (Exception $e) {
