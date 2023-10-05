@@ -1,12 +1,14 @@
 # Get-Giolocation-from-IP-address using PHP
 
-    Get the IP address of the current user.
-    Get geolocation information from the IP address using PHP.
-    Detect the visitor’s country, state (regions), city, and postal code associated with their IPv4 and IPv6 addresses.
+    1.Get the IP address of the current user.
+    
+    2.Get geolocation information from the IP address using PHP.
+    
+    3.Detect the visitor’s country, state (regions), city, and postal code associated with their IPv4 and IPv6 addresses.
 
 ## Requirements
 
-1.GeoLite2 Geolocation Database:
+**1.GeoLite2 Geolocation Database:**
 
   Before getting started, you need to download the latest GeoLite2-City database from the MaxMind account.
   
@@ -14,7 +16,7 @@
   
   For Testing purpose I have added atest database,for readable purpose csv file is also attached.
 
-2.Download & Install GeoIp2 Library:
+**2.Download & Install GeoIp2 Library:**
 
   The GeoIp2 library helps to retrieve the geolocation data from GeoLite2 binary database based on the IP address using PHP.
   
